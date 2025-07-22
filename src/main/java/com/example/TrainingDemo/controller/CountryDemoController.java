@@ -1,4 +1,4 @@
-package com.example.TrainingDemo;
+package com.example.TrainingDemo.controller;
 
 import com.example.TrainingDemo.model.Country;
 import com.example.TrainingDemo.model.State;
@@ -6,7 +6,6 @@ import com.example.TrainingDemo.model.District;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -86,4 +85,8 @@ public class CountryDemoController {
 
         return countryMap;
     }
+
+
+
+
 }
